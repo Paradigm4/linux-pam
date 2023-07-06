@@ -238,8 +238,8 @@ extern int pam_fail_delay(pam_handle_t *pamh, unsigned int musec_delay);
    arbitrary so Linux-PAM should handle longer values). */
 
 #define PAM_MAX_NUM_MSG       32
-#define PAM_MAX_MSG_SIZE      512
-#define PAM_MAX_RESP_SIZE     512
+#define PAM_MAX_MSG_SIZE      2048
+#define PAM_MAX_RESP_SIZE     2048
 
 /* Used to pass prompting text, error messages, or other informatory
  * text to the user.  This structure is allocated and freed by the PAM
